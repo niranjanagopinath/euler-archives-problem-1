@@ -1,0 +1,14 @@
+l=[0,1] #euler 2
+while True:
+    a=l[-1]+l[-2]    
+    if a>4000000:
+        break
+    l.append(a)
+print(l)
+
+list1=[]
+for i in l:
+    if i % 2 == 0:
+        list1.append(i)
+print(list1)
+print(sum(list1))
